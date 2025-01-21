@@ -13,13 +13,16 @@
 - Created SignUp User Account
 - Implemented SignIn user account
 - Created the Redux Store with userSlice
-- Authentication 
+- Authentication
 - Sign Up mechanism
 - Sign Out mechanism
 - User Name update
-- user icon update 
-
-
+- user icon update
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: If the user is not logged in Redirect /browse to Login Page and vice-versa.
+- Unsubscribed to the onAuthStateChanged listener/ callback
+- Added hardcoded values to the constants file
+- 
 
 # Features we gonna build
 
