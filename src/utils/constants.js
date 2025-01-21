@@ -8,3 +8,11 @@ export const LOGO =
 
     export const NETFLIX_BG =
       "https://assets.nflxext.com/ffe/siteui/vlv3/aa9edac4-a0e6-4f12-896e-32c518daec62/web/BD-en-20241223-TRIFECTA-perspective_2fcc1566-738b-4522-aba5-a72a29a34b06_large.jpg";
+
+      export const API_OPTIONS = {
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYjM1YzM5MDExNDBkYTM1Y2E5Y2E3ZjMyM2RmZjIxNSIsIm5iZiI6MTczNzI4MTc0Mi44NjksInN1YiI6IjY3OGNkMGNlODgwZjZiZDM4NDZkZmEwOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ZHRr3CYV6dnxGnl5yS0jKJk6hPOSZ4HeISJp5MqyeXE'
+  }
+};
