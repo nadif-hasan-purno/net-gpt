@@ -6,7 +6,6 @@ import { API_OPTIONS } from "../utils/constants";
 import { addGptMovieResult } from "../utils/gptSlice";
 
 const GptSearchBar = () => {
-  
   const dispatch = useDispatch();
   const searchText = useRef(null);
 
@@ -59,7 +58,9 @@ const GptSearchBar = () => {
 
     console.log(tmdbResults);
 
-    dispatch(addGptMovieResult({movieNames: gptMovies , movieResults: tmdbResults}));
+    dispatch(
+      addGptMovieResult({ movieNames: gptMovies, movieResults: tmdbResults })
+    );
   };
 
   return (

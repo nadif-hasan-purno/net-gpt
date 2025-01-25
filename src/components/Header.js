@@ -60,7 +60,7 @@ const Header = () => {
       <img className="w-44 mx-auto md:mx-0" src={LOGO} alt="Netflix Logo" />
 
       {user && (
-        <div className="flex p-2 space-x-4 items-center">
+        <div className="flex p-2 space-x-4 items-center justify-between">
           {showGptSearch && (
             <select
               className="p-2 m-2 bg-gray-900 text-white rounded-md"
@@ -79,7 +79,7 @@ const Header = () => {
           >
             {showGptSearch ? "Homepage" : "GPT Search"}
           </button>
-          <img className="w-10 h-10" alt="usericon" src={user?.photoURL} />
+          <img className="hidden md:block w-10 h-10" alt="usericon" src={user?.photoURL} />
           <button onClick={handleSignOut} className="font-bold text-white">
             Sign Out
           </button>
